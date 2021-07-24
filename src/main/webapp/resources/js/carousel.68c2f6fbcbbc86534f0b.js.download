@@ -1,0 +1,4 @@
+// @license magnet:?xt=urn:btih:0b31508aeb0634b347b8270c7bee4d411b5d4109&dn=agpl-3.0.txt AGPL-v3.0
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{207:function(n,a,i){"use strict";i.r(a),i.d(a,"init",(function(){return c}));i(237),i(238);var t=i(239);function c(n){n.each((function(n,a){t.a.add.apply(t.a,JSON.parse(a.dataset.config))}))}}}]);
+//# sourceMappingURL=carousel.68c2f6fbcbbc86534f0b.js.map
+// @license-end

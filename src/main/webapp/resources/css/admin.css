@@ -1,0 +1,80 @@
+.navbar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 800px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+.container-fluid {
+    padding-top: 10px;
+    padding-bottom:0;
+}
+.bg-1 {
+    background-color: black;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -background-size: cover;
+    color: #1abc9c;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+}
+textarea {
+    width: 800px;
+    height: 60px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.userinfo input{
+    border: none;
+    padding: 6px;
+
+}
+input[type=button], input[type=submit] {
+    background-color: #4CAF50;
+    opacity: 0.6;
+    border: none;
+    color: purple;
+    padding: 0.5px 32px;
+    text-decoration: none;
+    margin: 10px 2px;
+    cursor: pointer;
+}

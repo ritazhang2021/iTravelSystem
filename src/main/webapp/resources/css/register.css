@@ -1,0 +1,78 @@
+body {
+    font: 18px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+p {font-size: 23px ;}
+.bg-1 {
+    background-image: url(../images/bg/bg2.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    color: #1abc9c;
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+}
+.container {
+    position: absolute;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #1abc9c;
+}
+.circle {
+    position: relative;
+    background-color: #555555;
+    opacity: 0.5;
+    margin: 20px auto;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+
+}
+.bg-2 {
+    background-color: #474e5d; /*dark blue*/
+    color: #ffffff
+
+}
+.bg-4 {
+    background-color: black;
+    color: #555555
+}
+.container-fluid {
+    padding-top: 1px;
+    padding-bottom:1px;
+}
+.navbar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+input[type=button], input[type=submit] {
+    background-color: #4CAF50;
+    opacity: 0.6;
+    border: none;
+    color: purple;
+    padding: 0.5px 32px;
+    text-decoration: none;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+.login-help{
+    font-size: 12px;
+    color: gray;
+}
+

@@ -1,0 +1,175 @@
+.navbar {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    letter-spacing: 5px;
+}
+.navbar-nav li a:hover {
+    color: #1abc9c !important;
+}
+.w3-circle{
+    width: 100px;
+    height: 100px;
+}
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {height: 800px}
+
+/* Set gray background color and 100% height */
+.sidenav {
+    padding-top: 20px;
+    background-color: #f1f1f1;
+    height: 100%;
+}
+
+/* Set black background color, white text and some padding */
+footer {
+    background-color: #555;
+    color: white;
+    padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+    .sidenav {
+        height: auto;
+        padding: 15px;
+    }
+    .row.content {height:auto;}
+}
+.container-fluid {
+    padding-top: 1px;
+    padding-bottom:0;
+}
+.bg-1 {
+    background-color: black;
+    opacity: 0.6;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -background-size: cover;
+    color: #1abc9c;
+    height: 800px;
+    width: 100%;
+    z-index: -1;
+}
+textarea {
+    width: 800px;
+    height: 60px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+.userinfo input{
+    border: none;
+    padding: 6px;
+
+}
+input[type=button], input[type=submit] {
+    background-color: #4CAF50;
+    opacity: 0.6;
+    border: none;
+    color: purple;
+    padding: 0.5px 32px;
+    text-decoration: none;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+label{
+    color: #1abc9c;
+}
+.btn-large {
+    padding: 11px 19px;
+    font-size: 17.5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#imagePreview {
+    margin: 15px 0 0 0;
+    border: 2px solid #ddd;
+}
+
+input{
+    display:block;
+    margin-bottom:10px;
+}
+
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.center input{
+    width: 100%;
+    border: solid 1px #ccc;
+    border-radius: 3px;
+    padding: 6px;
+}
+#image_frame img{
+    width: 100%;
+}
+.hideform {
+    display: none;
+}
+.update-userinfo-modal{
+    /*display: block;*/
+    position: fixed;
+    top: 5px;
+    left: 33%;
+    width: 400px;
+    z-index: 1000;
+    background-color: #fff;
+}
+#box {
+    width:500px;
+    height:400px;
+    margin:0 auto;
+    /*border:solid 1px red;
+    */
+}
+.txt {
+    width:450px;
+    height:150px;
+}
+.pl {
+    background: #faebd7;
+}
+#len {
+    float:right;
+}
+/*.container {*/
+/*    width: 50%;*/
+/*    margin-left: 25%;*/
+/*    background: #008080;*/
+/*    border: 2px solid #F00;*/
+/*    padding: 5px;*/
+/*}*/
+
+/**/
+
+/*#image_frame {*/
+/*    min-height: 250px;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*input {*/
+/*    display: block;*/
+/*    font-size: 30px;*/
+/*    color: #F00;*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*}*/
+
+/*input[type='file'] {*/
+/*    color: #FFF;*/
+/*}*/
